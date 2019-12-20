@@ -14,7 +14,6 @@ public class task3 {
 		long e = 123456L;
 		double f = e;
 		System.out.println(f);
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
