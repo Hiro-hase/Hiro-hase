@@ -14,6 +14,8 @@ public class task5 {
 		String str5 =sc1.nextLine();
 		String str6 = str4.concat(str5);
 		sc1.close();
+		System.out.println(str4);
+		System.out.println(str5);
 		System.out.println(str6);
 	}
 

@@ -3,10 +3,9 @@ package calc;
 public class task1 {
 
 	public static void main(String[] args) {
-		//task1
-		System.out.println((3 + 2) * 6 + 5);
-		System.out.println("24/3の余り");
-		System.out.println(24 % 3);
+		System.out.println("修正前:" + (3 + 2 * 6 + 5));
+		System.out.println("修正語:" + ((3 + 2) * 6 + 5));
+		System.out.println("24/3の余り" + 24 % 3);
 	}
 
 }
