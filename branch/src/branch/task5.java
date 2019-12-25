@@ -11,15 +11,13 @@ public class task5 {
 		System.out.println("numA:" + numA);
 		System.out.println("numB:" + numB);
 		System.out.println("numC:" + numC);
-		if(numA > numB) {
-			if(numA > numC) System.out.println("最大値:" + numA);
-		}else if(numB > numC){
+		if(numA > numB && numA > numC) {
+			System.out.println("最大値:" + numA);
+		}else if(numB > numC) {
 			System.out.println("最大値:" + numB);
 		}else{
 			System.out.println("最大値:" + numC);
 		}
-
-
 	}
 
 }

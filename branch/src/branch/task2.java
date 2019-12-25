@@ -7,11 +7,13 @@ public class task2 {
 		Scanner sc = new Scanner(System.in);
 		int num1 = sc.nextInt();
 		sc.close();
-		String str1 = "0" + num1;
+		String str1 = null;
 		System.out.println("数字を入力してください");
 		System.out.println(num1);
-		if(num1 > 10) System.out.println(num1);
-		if(num1 < 10) System.out.println(str1);
+		if(num1 > 10) System.out.println("値:" + num1);
+		if(num1 < 10) 
+			str1 = "0" + num1;
+			System.out.println("値:" + str1);
 
 
 	}
