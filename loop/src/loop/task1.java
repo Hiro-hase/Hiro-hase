@@ -9,7 +9,7 @@ public class task1 {
 		int sum = 0;
 		for (int i = 1; i <= numA; i++){
 		      sum += i;
-		    }
+		}
 
 		System.out.println("数字を入力してください:" + numA);
 		System.out.println("1～" + numA + "までの合計:" + sum);

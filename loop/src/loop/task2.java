@@ -6,21 +6,15 @@ public class task2 {
 		Scanner sc = new Scanner(System.in);
 		int numA = sc.nextInt();
 		sc.close();
-		System.out.println("数字を入力てください:" + numA);
-		String str;
+		System.out.println("数字を入力てください: " + numA);
 		int sum = 0;
-		for (int i = 1; i <= numA; i++){
-			sum += i;
-		}
-
-		 for(int i = 1; i<=numA; i++){
-	            if(i>=2){
-	                int numB = i - 1;
-	            str = numB + "+" ;
-	            System.out.print(str);
-	            }
-	        }
-
-	        System.out.println( numA + "=" + sum);
-	    }
-	}
+		for (int i = 1; i <= numA; i++ ) {
+            if (i != 1) {
+                System.out.print(" + ");
+            }
+            sum += i;
+            System.out.print(i);
+        }
+        System.out.println(" = " + sum);
+    }
+}
