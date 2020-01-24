@@ -5,20 +5,20 @@ import java.util.ArrayList;
 public class task2 {
 
 	public static void main(String[] args) {
-		int[] numbers = {21,3,32,6,99,72,78,51,1,26,87,11,48,60};
-		ArrayList<Integer> Oddnumber = new ArrayList<>();
-		ArrayList<Integer> Evennumber = new ArrayList<>();
-		for (int i = 0; i < numbers.length; i++ ) {
-			if (numbers[i] % 2 == 0) {
-				Evennumber.add(numbers[i]);
+		int[] ImputNUmbers = {21,3,32,6,99,72,78,51,1,26,87,11,48,60};
+		ArrayList<Integer> OddNumbers = new ArrayList<>();
+		ArrayList<Integer> EvenNumbers = new ArrayList<>();
+		for (int i = 0; i < ImputNUmbers.length; i++ ) {
+			if (ImputNUmbers[i] % 2 == 0) {
+				EvenNumbers.add(ImputNUmbers[i]);
 			}else{
-				Oddnumber.add(numbers[i]);
+				OddNumbers.add(ImputNUmbers[i]);
 			}
 		}
 		System.out.print("奇数");
-		System.out.println(Oddnumber);
+		System.out.println(OddNumbers);
 		System.out.print("偶数");
-		System.out.println(Evennumber);
+		System.out.println(EvenNumbers);
 	}
 
 }
