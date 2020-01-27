@@ -6,7 +6,7 @@ public class task1 {
 		double a = 31.2;
 		string b = "Java研修";
 		int c = 9;
-		int d = 2147483648;
+		long d = 2147483648L;
 		char e = '才';
 
 	}

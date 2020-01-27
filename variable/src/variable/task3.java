@@ -3,19 +3,19 @@ package variable;
 public class task3 {
 
 	public static void main(String[] args) {
-		int a = 219;
-		long b = a;
+		int intNum = 219;
+		long b = intNum;
 
-		double c = 364.2;
-		float d = (float) c;
+		double bleNum = 364.2;
+		float d = (float) bleNum;
 
-		long e = 123456L;
-		double f = e;
+		long longNum = 123456L;
+		double f = longNum;
 
 		System.out.println("変換前");
-		System.out.println(a);
-		System.out.println(c);
-		System.out.println(e);
+		System.out.println(intNum);
+		System.out.println(bleNum);
+		System.out.println(longNum);
 		System.out.println("変換後");
 		System.out.println(b);
 		System.out.println(d);
