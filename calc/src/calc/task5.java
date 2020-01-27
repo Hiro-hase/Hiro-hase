@@ -5,10 +5,9 @@ public class task5 {
 
 	public static void main(String[] args) {
 		String str1 = "ノートPCの値段:";
-		String str2 = "89800";
+		int price = 89800;
 		String str3 = "円";
-		String str = str1.concat(str2).concat(str3);
-		System.out.println(str);
+		System.out.println(str1 + price + str3);
 		Scanner sc1 = new Scanner(System.in);
 		String str4 =sc1.nextLine();
 		String str5 =sc1.nextLine();
