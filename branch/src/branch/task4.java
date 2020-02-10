@@ -13,12 +13,11 @@ public class task4 {
 			int remainder = numA % numB;
 			if(remainder == 0) {
 				System.out.println("numBはnumAの約数です");
-			}else {
-				System.out.println("numBはnumAの約数ではありません");
-			}
-		}else{
+			}else{
+				System.out.println("numBはnumAの約数ではありません");}
+			}else{
 				System.out.println("正の整数を入力してください");
-		}
+			}
 	}
 
 }
