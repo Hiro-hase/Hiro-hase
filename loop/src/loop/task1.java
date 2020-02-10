@@ -11,7 +11,7 @@ public class task1 {
 		for (int i = 1; i <= numA; i++){
 		      sum += i;
 		}
-
+		
 		System.out.println("1～" + numA + "までの合計:" + sum);
 
 	}
